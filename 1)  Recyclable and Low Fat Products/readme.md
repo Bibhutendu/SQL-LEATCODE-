@@ -1,4 +1,5 @@
-<h2>Recyclable and Low Fat Products
+<pre>
+<h2>Recyclable and Low Fat Products<br>
 Table: Products<br>
 
 +-------------+---------+<br>
@@ -41,3 +42,4 @@ Output: <br>
 | 3           |<br>
 +-------------+<br>
 Explanation: Only products 1 and 3 are both low fat and recyclable.<br>
+</pre>
