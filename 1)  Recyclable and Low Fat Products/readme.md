@@ -1,42 +1,43 @@
-Table: Products
+<h2>Recyclable and Low Fat Products
+Table: Products<br>
 
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| product_id  | int     |
-| low_fats    | enum    |
-| recyclable  | enum    |
-+-------------+---------+
-product_id is the primary key (column with unique values) for this table.
-low_fats is an ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
-recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
++-------------+---------+<br>
+| Column Name | Type    |<br>
++-------------+---------+<br>
+| product_id  | int     |<br>
+| low_fats    | enum    |<br>
+| recyclable  | enum    |<br>
++-------------+---------+<br>
+product_id is the primary key (column with unique values) for this table.<br>
+low_fats is an ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.<br>
+recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.<br>
  
 
-Write a solution to find the ids of products that are both low fat and recyclable.
+Write a solution to find the ids of products that are both low fat and recyclable.<br>
 
-Return the result table in any order.
-The result format is in the following example.
+Return the result table in any order.<br>
+The result format is in the following example.<br>
 
  
 
-Example 1:
+Example 1:<br>
 
-Input: 
-Products table:
-+-------------+----------+------------+
-| product_id  | low_fats | recyclable |
-+-------------+----------+------------+
-| 0           | Y        | N          |
-| 1           | Y        | Y          |
-| 2           | N        | Y          |
-| 3           | Y        | Y          |
-| 4           | N        | N          |
-+-------------+----------+------------+
-Output: 
-+-------------+
-| product_id  |
-+-------------+
-| 1           |
-| 3           |
-+-------------+
-Explanation: Only products 1 and 3 are both low fat and recyclable.
+Input: <br>
+Products table:<br>
++-------------+----------+------------+<br>
+| product_id  | low_fats | recyclable |<br>
++-------------+----------+------------+<br>
+| 0           | Y        | N          |<br>
+| 1           | Y        | Y          |<br>
+| 2           | N        | Y          |<br>
+| 3           | Y        | Y          |<br>
+| 4           | N        | N          |<br>
++-------------+----------+------------+<br>
+Output: <br>
++-------------+<br>
+| product_id  |<br>
++-------------+<br>
+| 1           |<br>
+| 3           |<br>
++-------------+<br>
+Explanation: Only products 1 and 3 are both low fat and recyclable.<br>
